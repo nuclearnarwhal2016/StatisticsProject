@@ -7,7 +7,7 @@ df = pd.read_csv('AmesHousing.csv')
 
 price_samp = df.sample(n=500, replace=False)
 
-num_iterations = 1000000
+num_iterations = 10000
 
 df_medians = []
 for _ in range(num_iterations):
